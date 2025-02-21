@@ -128,33 +128,72 @@ a:hover {
     padding: 10px;
     justify-content: baseline;
 }
-#perfil{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+/* Correcciones con Media queries */
+@media (max-width: 767px) {
+    #perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #ajustes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #armas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #buscar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
-#ajustes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 768px) {
+    #perfil{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #ajustes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #armas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #buscar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
-#armas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 991px) {    
+    #modos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
-#buscar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-#modos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 992px) {
+    #modos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
