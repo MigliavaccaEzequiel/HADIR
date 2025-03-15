@@ -1,0 +1,229 @@
+/*Media queries*/
+@media (max-width: 767px) {
+  #perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #ajustes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #armas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #buscar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  #perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #ajustes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #armas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #buscar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  #modos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  #modos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/*Header y footer*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgFooter {
+  height: 15px;
+  margin-right: 5px;
+}
+
+/*Enlaces*/
+.navbar a {
+  text-decoration: none;
+  color: orange;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: orangered;
+  background-color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: orangered;
+  background-color: rgb(0, 0, 0);
+}
+
+footer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: orange;
+  font-size: 1.2rem;
+  font-family: "Della Respira", serif;
+}
+
+body {
+  background-color: rgb(40, 70, 70);
+}
+
+/*Titulos*/
+h1 {
+  text-align: right;
+  color: red;
+  font-family: "Della Respira", serif;
+}
+
+h2 {
+  font-family: "Turret Road", serif;
+  text-decoration: underline;
+  text-align: center;
+  color: orangered;
+}
+
+h3 {
+  font-family: "Turret Road", serif;
+  text-decoration: solid;
+  text-align: center;
+  color: lightsalmon;
+}
+
+p {
+  font-family: "Della Respira", serif;
+  text-align: center;
+  color: aquamarine;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+li {
+  font-family: "Della Respira", serif;
+  color: rgb(25, 150, 75);
+  font-size: 1.2rem;
+}
+
+li p {
+  text-align: start;
+}
+
+/*IDs*/
+#pCarrusel {
+  display: flex;
+  justify-content: center;
+}
+
+#logoCod {
+  border: 2px double rgb(51, 125, 87);
+  padding: 10px;
+  width: 100%;
+}
+
+#elJuego p {
+  color: rgb(7, 162, 43);
+}
+
+#imgModos {
+  height: 100vh;
+}
+
+/*Clases*/
+.imgFhd {
+  width: 100%;
+}
+
+.imgMenuVert {
+  height: 600px;
+  margin: 5px;
+}
+
+.imgMenuHor {
+  width: 75%;
+}
+
+.resuJuego {
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: baseline;
+}
+
+.videoGal {
+  border: 2px solid rgb(85, 52, 8);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: baseline;
+}
+
+/*# sourceMappingURL=styles.css.map */

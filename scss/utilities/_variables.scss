@@ -1,0 +1,32 @@
+//Fuentes
+$h1ycuerpo: "Della Respira", serif;
+$subtitulos: "Turret Road", serif;
+$colorfondo:  rgb(40, 70, 70);
+
+@mixin flexrowspbetweencenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flexrowcentercenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexcolumncentercenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin enlaces {
+    text-decoration: none;
+    color: orange;
+    font-size: 1.2rem;
+}
+@mixin hoverenlaces {
+    color: orangered;
+    background-color: rgb(0, 0, 0);
+}

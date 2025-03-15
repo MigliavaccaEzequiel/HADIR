@@ -1,0 +1,39 @@
+/*Media queries*/
+@media (max-width: 767px) {
+    #perfil{
+        @include flexcolumncentercenter;
+    }
+    #ajustes {
+        @include flexcolumncentercenter;
+    }
+    #armas {
+        @include flexcolumncentercenter;
+    }
+    #buscar{
+        @include flexcolumncentercenter;
+    }
+}
+@media (min-width: 768px) {
+    #perfil{
+        @include flexrowcentercenter;
+    }
+    #ajustes {
+        @include flexrowcentercenter;
+    }
+    #armas {
+        @include flexcolumncentercenter;
+    }
+    #buscar{
+        @include flexrowcentercenter;
+    }
+}
+@media (max-width: 991px) {    
+    #modos {
+        @include flexcolumncentercenter;
+    }
+}
+@media (min-width: 992px) {
+    #modos {
+        @include flexrowcentercenter;
+    }
+}
