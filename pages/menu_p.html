@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet"> <!--tipografia parrafos y h1-->
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet"> <!--tipografia subtitulos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!--animate css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--aos-->
     <title>HADIR - Pre partida</title> <!--nombre pestaña-->
 </head>
 <body>
@@ -76,26 +78,26 @@
     </main>
     <div>
         <section id="perfil">
-            <img src="../assets/imagenes/Perfil.png" alt="Menú perfil" class="imgMenuVert"> <!--clase para imagen de menu vertical-->
+            <img src="../assets/imagenes/Perfil.png" alt="Menú perfil" class="imgMenuVert" data-aos="flip-left"> <!--clase para imagen de menu vertical-->
             <div>
                 <h3>Perfil</h3>
                 <p>Aquí vemos nuestro nivel, prestigio, CP (monedas del juego), ID por si alguien quiere agregarnos de amigo, el emblema y la tarjeta de visita que se muestran cuando eliminamos a alguien o salimos en la <em>jugada destacada</em>. Más abajo podremos editar estos y otros detalles como elegir el operador que se muestra, el arma que tiene en mano o agregar una insignia de clan entre otras cosas.</p>
             </div>
         </section>
         <section id="ajustes">
-            <img src="../assets/imagenes/Ajustes.png" alt="Menú ajustes" class="imgMenuVert">
+            <img src="../assets/imagenes/Ajustes.png" alt="Menú ajustes" class="imgMenuVert" data-aos="flip-left">
             <div>
                 <h3>Ajustes</h3>
                 <p>Las opicones de este menú son muy variadas y puntuales, por lo que te permite agregar 15 ajustes rápidos para no tener que buscar tanto si queres cambiar algo en medio de una partida, por ejemplo, tener a mano el ajuste de "microfono abierto u oprimir para hablar" o la sensibilidad del mouse. Podremos configurar las teclas, graficos, sonidos, interfaz de juego, etc... Lo principal que recomendamos es tener activado el chat de voz para poder escuchar y hablar con otras personas y poner el <strong>FOV</strong> a 120 para que se sienta mas fluido, ya que el resto de ajustes dependera de tus gustos, comodidad y los recursos que dispongas ya sea en tu consola o PC.</p>
             </div>
         </section>
         <section id="armas">
+            <img src="../assets/imagenes/Menu armas.png" alt="Menú armas" class="imgMenuHor" data-aos="flip-down"> <!--clase para imagen de menu horizontal-->
             <h3>Armas</h3>
             <p>En este menu podremos configurar hasta 10 opciones de <a href="./armamento.html">armamento</a> para seleccionar el que queremos de forma rapida dentro de la partida,  sin perder el tiempo cambiando cosas mientras estamos en el campo de batalla, podremos elegir las <em>rachas de puntos</em> y probar las armas en la <em>galeria de tiro</em>.</p>
-            <img src="../assets/imagenes/Menu armas.png" alt="Menú armas" class="imgMenuHor"> <!--clase para imagen de menu horizontal-->
-        </section>
+            </section>
         <section id="buscar">
-            <img src="../assets/imagenes/Buscar Partida.png" alt="Menú buscar partida" class="imgMenuVert">
+            <img src="../assets/imagenes/Buscar Partida.png" alt="Menú buscar partida" class="imgMenuVert" data-aos="flip-left">
             <div>
                 <h3>Buscar partida</h3>
                 <p>Hay muchos modos de juego, variedad de mapas, podremos crear partidas privadas, también suele haber eventos temporales con modos distintos e innovadores que nos daran algun tipo de recompensa al completarlos, por ejemplo, en esta imagen hay un evento de "El juego del calamar" que sacaran al finalizar la temporada para poner algo nuevo.</p>
@@ -104,5 +106,9 @@
     </div>
     <footer><a href="#inicio1"><img src="../assets/imagenes/flecha.png" alt="flecha arriba" class="imgFooter">Volver arriba</a>   <a href="../pages/contacto.html"><img src="../assets/imagenes/msj.png" alt="sobre" class="imgFooter">Contacto</a>   <a href="https://www.instagram.com/hadir_clan_/" target="_blank"><img src="../assets/imagenes/logo-insta.png" alt="logo insta" class="imgFooter">Instagram</a></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

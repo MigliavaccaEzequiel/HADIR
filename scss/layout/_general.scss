@@ -35,36 +35,36 @@ footer a {
     font-family: $h1ycuerpo;
 }
 body {
-    background-color: $colorfondo;
+    background-color: map-get($colores, fondo);
 }
 /*Titulos*/
 h1 {
     text-align: right;
-    color: red;
+    color: map-get($colores , tit1);
     font-family: $h1ycuerpo;
 }
 h2 {
     font-family: $subtitulos;
     text-decoration: underline;
     text-align: center;
-    color: orangered;
+    color: map-get($colores, tit2);
 }
 h3 {
     font-family: $subtitulos;
     text-decoration: solid;
     text-align: center;
-    color: lightsalmon;
+    color: map-get($colores, tit3);
 }
 p {
     font-family: $h1ycuerpo;
     text-align: center;
-    color: aquamarine;
+    color: map-get($colores, txtppl);
     font-size: 1.2rem;
     margin-left: 5px;
 }
 li {
     font-family: $h1ycuerpo;
-    color: rgb(25, 150, 75);
+    color: map-get($colores, txtsec);
     font-size: 1.2rem;
 }
 li p {
@@ -76,13 +76,13 @@ li p {
     justify-content: center;
 }
 #logoCod {
-    border: 2px double rgb(51, 125, 87);
+    border: 2px double map-get($colores, txtsec);
     padding: 10px;
     width: 100%;
     
 }
 #elJuego p {
-    color: rgb(7, 162, 43);
+    color: map-get($colores, txtsec);
 }
 #imgModos {
     height: 100vh;
@@ -98,17 +98,9 @@ li p {
 .imgMenuHor {
     width: 75%;
 }
-.resuJuego {
-    border: 2px solid orange;
-    display:flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: baseline;
+.recuadro {
+    @include recuadro;
 }
-.videoGal {
-    border: 2px solid rgb(85, 52, 8);
-    display:flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: baseline;
+.boton {
+    @include boton;
 }

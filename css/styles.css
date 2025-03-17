@@ -104,12 +104,18 @@ footer {
   text-decoration: none;
   color: orange;
   font-size: 1.2rem;
+  transition: color 2s, background-color 2s;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 a {
   text-decoration: none;
   color: orange;
   font-size: 1.2rem;
+  transition: color 2s, background-color 2s;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 .navbar a:hover {
@@ -130,6 +136,9 @@ footer a {
   text-decoration: none;
   color: orange;
   font-size: 1.2rem;
+  transition: color 2s, background-color 2s;
+  border-radius: 5px;
+  padding: 2px;
   font-family: "Della Respira", serif;
 }
 
@@ -168,7 +177,7 @@ p {
 
 li {
   font-family: "Della Respira", serif;
-  color: rgb(25, 150, 75);
+  color: rgb(7, 162, 43);
   font-size: 1.2rem;
 }
 
@@ -183,7 +192,7 @@ li p {
 }
 
 #logoCod {
-  border: 2px double rgb(51, 125, 87);
+  border: 2px double rgb(7, 162, 43);
   padding: 10px;
   width: 100%;
 }
@@ -210,7 +219,7 @@ li p {
   width: 75%;
 }
 
-.resuJuego {
+.recuadro {
   border: 2px solid orange;
   display: flex;
   flex-direction: column;
@@ -218,12 +227,11 @@ li p {
   justify-content: baseline;
 }
 
-.videoGal {
-  border: 2px solid rgb(85, 52, 8);
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  justify-content: baseline;
+.boton {
+  background-color: aquamarine;
+  font-family: "Della Respira", serif;
+  color: orangered;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
