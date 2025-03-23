@@ -73,7 +73,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../../assets/imagenes/header2.png);
+  background-image: url(../assets/imagenes/header2.png);
   background-position: center;
   background-size: cover;
 }

@@ -1,7 +1,7 @@
 /*Header y footer*/
 header {
     @include flexrowspbetweencenter;
-    background-image: url(../../assets/imagenes/header2.png);
+    background-image: url(../assets/imagenes/header2.png);
     background-position: center;
     background-size: cover;
 }
@@ -43,7 +43,7 @@ body {
 /*Titulos*/
 h1 {
     text-align: right;
-    color: map-get($colores , tit1);
+    color: map-get($colores, tit1);
     font-family: $h1ycuerpo;
 }
 h2 {
