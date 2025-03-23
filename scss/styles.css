@@ -73,9 +73,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../../assets/imagenes/header2.png);
-  background-position: center;
-  background-size: cover;
 }
 
 nav ul {
@@ -106,7 +103,6 @@ footer {
 .navbar a {
   text-decoration: none;
   color: orange;
-  background-color: rgb(40, 70, 70);
   font-size: 1.2rem;
   transition: color 2s, background-color 2s;
   border-radius: 5px;
@@ -116,7 +112,6 @@ footer {
 a {
   text-decoration: none;
   color: orange;
-  background-color: rgb(40, 70, 70);
   font-size: 1.2rem;
   transition: color 2s, background-color 2s;
   border-radius: 5px;
@@ -140,7 +135,6 @@ footer a {
   align-items: center;
   text-decoration: none;
   color: orange;
-  background-color: rgb(40, 70, 70);
   font-size: 1.2rem;
   transition: color 2s, background-color 2s;
   border-radius: 5px;
@@ -194,9 +188,7 @@ li p {
 /*IDs*/
 #pCarrusel {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 #logoCod {
@@ -211,13 +203,6 @@ li p {
 
 #imgModos {
   height: 100vh;
-}
-
-#colorHambur {
-  color: orange;
-  border: 1px solid orange;
-  padding: 5px;
-  border-radius: 5px;
 }
 
 /*Clases*/
@@ -243,18 +228,12 @@ li p {
 }
 
 .boton {
-  background-color: rgb(40, 70, 70);
+  background-color: aquamarine;
   font-family: "Della Respira", serif;
   color: orangered;
   border-radius: 5px;
-  justify-items: center;
 }
 
-.formulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 /*# sourceMappingURL=styles.css.map */

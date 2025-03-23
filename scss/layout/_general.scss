@@ -1,6 +1,9 @@
 /*Header y footer*/
 header {
     @include flexrowspbetweencenter;
+    background-image: url(../../assets/imagenes/header2.png);
+    background-position: center;
+    background-size: cover;
 }
 nav ul {
     @include flexrowspbetweencenter;
@@ -72,20 +75,24 @@ li p {
 }
 /*IDs*/
 #pCarrusel {
-    display: flex;
-    justify-content: center;
+    @include flexcolumncentercenter;
 }
 #logoCod {
     border: 2px double map-get($colores, txtsec);
     padding: 10px;
     width: 100%;
-    
 }
 #elJuego p {
     color: map-get($colores, txtsec);
 }
 #imgModos {
     height: 100vh;
+}
+#colorHambur {
+    color: map-get($colores, link);
+    border: 1px solid map-get($colores, link);
+    padding: 5px;
+    border-radius: 5px;
 }
 /*Clases*/
 .imgFhd {
@@ -103,4 +110,7 @@ li p {
 }
 .boton {
     @include boton;
+}
+.formulario {
+    @include flexcolumncentercenter;
 }
