@@ -215,7 +215,7 @@ li p {
 
 #colorHambur {
   color: orange;
-  border: 1px solid orange;
+  border: 2px solid orange;
   padding: 5px;
   border-radius: 5px;
 }
@@ -255,6 +255,8 @@ li p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: rgb(7, 162, 43);
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

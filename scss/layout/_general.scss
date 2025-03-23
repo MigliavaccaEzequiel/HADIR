@@ -90,7 +90,7 @@ li p {
 }
 #colorHambur {
     color: map-get($colores, link);
-    border: 1px solid map-get($colores, link);
+    border: 2px solid map-get($colores, link);
     padding: 5px;
     border-radius: 5px;
 }
@@ -113,4 +113,6 @@ li p {
 }
 .formulario {
     @include flexcolumncentercenter;
+    color: map-get($colores, txtsec);
+    text-align: center;
 }
