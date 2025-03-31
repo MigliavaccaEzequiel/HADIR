@@ -105,8 +105,8 @@ footer {
 /*Enlaces*/
 .navbar a {
   text-decoration: none;
-  color: orange;
-  background-color: rgb(40, 70, 70);
+  color: #ffcb5e;
+  background-color: #01444c;
   font-size: 1.2rem;
   transition: color 2s, background-color 2s;
   border-radius: 5px;
@@ -115,8 +115,8 @@ footer {
 
 a {
   text-decoration: none;
-  color: orange;
-  background-color: rgb(40, 70, 70);
+  color: #ffcb5e;
+  background-color: #01444c;
   font-size: 1.2rem;
   transition: color 2s, background-color 2s;
   border-radius: 5px;
@@ -124,12 +124,12 @@ a {
 }
 
 .navbar a:hover {
-  color: orangered;
+  color: #e46a45;
   background-color: rgb(0, 0, 0);
 }
 
 a:hover {
-  color: orangered;
+  color: #e46a45;
   background-color: rgb(0, 0, 0);
 }
 
@@ -139,8 +139,8 @@ footer a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: orange;
-  background-color: rgb(40, 70, 70);
+  color: #ffcb5e;
+  background-color: #01444c;
   font-size: 1.2rem;
   transition: color 2s, background-color 2s;
   border-radius: 5px;
@@ -149,13 +149,13 @@ footer a {
 }
 
 body {
-  background-color: rgb(40, 70, 70);
+  background-color: #01444c;
 }
 
 /*Titulos*/
 h1 {
   text-align: right;
-  color: red;
+  color: #0c1513;
   font-family: "Della Respira", serif;
 }
 
@@ -163,27 +163,27 @@ h2 {
   font-family: "Turret Road", serif;
   text-decoration: underline;
   text-align: center;
-  color: orangered;
+  color: #e46a45;
 }
 
 h3 {
   font-family: "Turret Road", serif;
   text-decoration: solid;
   text-align: center;
-  color: lightsalmon;
+  color: #ffcb5e;
 }
 
 p {
   font-family: "Della Respira", serif;
   text-align: center;
-  color: aquamarine;
+  color: #ffffaf;
   font-size: 1.2rem;
   margin-left: 5px;
 }
 
 li {
   font-family: "Della Respira", serif;
-  color: rgb(7, 162, 43);
+  color: #e46a45;
   font-size: 1.2rem;
 }
 
@@ -200,13 +200,13 @@ li p {
 }
 
 #logoCod {
-  border: 2px double rgb(7, 162, 43);
+  border: 2px double #e46a45;
   padding: 10px;
   width: 100%;
 }
 
 #elJuego p {
-  color: rgb(7, 162, 43);
+  color: #e46a45;
 }
 
 #imgModos {
@@ -214,8 +214,8 @@ li p {
 }
 
 #colorHambur {
-  color: orange;
-  border: 2px solid orange;
+  color: #ffcb5e;
+  border: 2px solid #ffcb5e;
   padding: 5px;
   border-radius: 5px;
 }
@@ -235,7 +235,8 @@ li p {
 }
 
 .recuadro {
-  border: 2px solid orange;
+  border: 2px solid #ffcb5e;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -243,9 +244,9 @@ li p {
 }
 
 .boton {
-  background-color: rgb(40, 70, 70);
+  background-color: #01444c;
   font-family: "Della Respira", serif;
-  color: orangered;
+  color: #e46a45;
   border-radius: 5px;
   justify-items: center;
 }
@@ -255,7 +256,7 @@ li p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(7, 162, 43);
+  color: #e46a45;
   text-align: center;
 }
 

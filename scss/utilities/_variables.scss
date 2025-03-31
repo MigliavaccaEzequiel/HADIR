@@ -3,13 +3,13 @@ $h1ycuerpo: "Della Respira", serif;
 $subtitulos: "Turret Road", serif;
 //Colores
 $colores:(
-    fondo: rgb(40, 70, 70),
-    tit1: red,
-    tit2: orangered,
-    tit3: lightsalmon,
-    txtppl: aquamarine,
-    txtsec: rgb(7, 162, 43),
-    link: orange,
+    fondo: #01444c,
+    tit1: #0c1513,
+    tit2:  #e46a45,
+    tit3: #ffcb5e,
+    txtppl: #ffffaf,
+    txtsec: #e46a45,
+    link: #ffcb5e,
 );
 //Contenedores
 @mixin flexrowspbetweencenter {
@@ -31,7 +31,8 @@ $colores:(
     align-items: center;
 }
 @mixin recuadro {
-    border: 2px solid orange;
+    border: 2px solid map-get($colores, link);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 10px;
