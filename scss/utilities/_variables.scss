@@ -18,6 +18,12 @@ $colores:(
     justify-content: space-between;
     align-items: center;
 }
+@mixin flexrowsparoundcenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 @mixin flexrowcentercenter {
     display: flex;
     flex-direction: row;
@@ -37,6 +43,7 @@ $colores:(
     flex-direction: column;
     padding: 10px;
     justify-content: baseline;
+    height: 100%;
 }
 //Detalles
 @mixin enlaces {
@@ -50,7 +57,7 @@ $colores:(
 }
 @mixin hoverenlaces {
     color: map-get($colores, tit2);
-    background-color: rgb(0, 0, 0);
+    background-color: map-get($colores, tit1);
 }
 @mixin boton {
     background-color: map-get($colores, fondo);
@@ -58,4 +65,7 @@ $colores:(
     color: map-get($colores, tit2);
     border-radius: 5px;
     justify-items: center;
+}
+@mixin sombra {
+    box-shadow: 0px 5px 10px;
 }

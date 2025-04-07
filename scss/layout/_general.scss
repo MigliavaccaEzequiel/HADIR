@@ -13,7 +13,7 @@ nav ul li {
     margin: 5px;
 }
 footer {
-    @include flexrowspbetweencenter;
+    @include flexrowsparoundcenter;
 }
 .imgFooter {
     height: 15px;
@@ -40,11 +40,12 @@ footer a {
 body {
     background-color: map-get($colores, fondo);
 }
-/*Titulos*/
+/*Textos*/
 h1 {
     text-align: right;
     color: map-get($colores, tit1);
     font-family: $h1ycuerpo;
+    margin-right: 25px;
 }
 h2 {
     font-family: $subtitulos;
@@ -77,16 +78,12 @@ li p {
 #pCarrusel {
     @include flexcolumncentercenter;
 }
-#logoCod {
-    border: 2px double map-get($colores, txtsec);
-    padding: 10px;
-    width: 100%;
-}
 #elJuego p {
     color: map-get($colores, txtsec);
 }
 #imgModos {
     height: 100vh;
+    border-radius: 10px;
 }
 #colorHambur {
     color: map-get($colores, link);
@@ -95,18 +92,40 @@ li p {
     border-radius: 5px;
 }
 /*Clases*/
-.imgFhd {
+.logoCod {
     width: 100%;
+    margin-bottom: 20px;
+}
+.imgFhd {
+    @include sombra;
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px;
+}
+.imgCard {
+    @include sombra;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .imgMenuVert {
-    height: 600px;
-    margin: 5px;
+    @include sombra;
+    height: 50vh;
+    margin: 15px;
+    border-radius: 10px;
 }
 .imgMenuHor {
+    @include sombra;
     width: 75%;
+    border-radius: 15px;
+    margin: 10px;
 }
 .recuadro {
     @include recuadro;
+}
+.recuadro img:hover{
+    @include sombra;
+    cursor: pointer;
 }
 .boton {
     @include boton;

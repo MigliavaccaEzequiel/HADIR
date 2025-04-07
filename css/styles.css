@@ -93,7 +93,7 @@ nav ul li {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -125,12 +125,12 @@ a {
 
 .navbar a:hover {
   color: #e46a45;
-  background-color: rgb(0, 0, 0);
+  background-color: #0c1513;
 }
 
 a:hover {
   color: #e46a45;
-  background-color: rgb(0, 0, 0);
+  background-color: #0c1513;
 }
 
 footer a {
@@ -152,11 +152,12 @@ body {
   background-color: #01444c;
 }
 
-/*Titulos*/
+/*Textos*/
 h1 {
   text-align: right;
   color: #0c1513;
   font-family: "Della Respira", serif;
+  margin-right: 25px;
 }
 
 h2 {
@@ -199,18 +200,13 @@ li p {
   align-items: center;
 }
 
-#logoCod {
-  border: 2px double #e46a45;
-  padding: 10px;
-  width: 100%;
-}
-
 #elJuego p {
   color: #e46a45;
 }
 
 #imgModos {
   height: 100vh;
+  border-radius: 10px;
 }
 
 #colorHambur {
@@ -221,17 +217,37 @@ li p {
 }
 
 /*Clases*/
-.imgFhd {
+.logoCod {
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.imgFhd {
+  box-shadow: 0px 5px 10px;
+  width: 95%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.imgCard {
+  box-shadow: 0px 5px 10px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .imgMenuVert {
-  height: 600px;
-  margin: 5px;
+  box-shadow: 0px 5px 10px;
+  height: 50vh;
+  margin: 15px;
+  border-radius: 10px;
 }
 
 .imgMenuHor {
+  box-shadow: 0px 5px 10px;
   width: 75%;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 .recuadro {
@@ -241,6 +257,12 @@ li p {
   flex-direction: column;
   padding: 10px;
   justify-content: baseline;
+  height: 100%;
+}
+
+.recuadro img:hover {
+  box-shadow: 0px 5px 10px;
+  cursor: pointer;
 }
 
 .boton {
