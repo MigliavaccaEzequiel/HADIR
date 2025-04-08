@@ -110,13 +110,13 @@ li p {
 }
 .imgMenuVert {
     @include sombra;
-    height: 50vh;
+    height: 65vh;
     margin: 15px;
     border-radius: 10px;
 }
 .imgMenuHor {
     @include sombra;
-    width: 75%;
+    width: 70%;
     border-radius: 15px;
     margin: 10px;
 }

@@ -238,14 +238,14 @@ li p {
 
 .imgMenuVert {
   box-shadow: 0px 5px 10px;
-  height: 50vh;
+  height: 65vh;
   margin: 15px;
   border-radius: 10px;
 }
 
 .imgMenuHor {
   box-shadow: 0px 5px 10px;
-  width: 75%;
+  width: 70%;
   border-radius: 15px;
   margin: 10px;
 }
