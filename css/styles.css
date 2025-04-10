@@ -94,7 +94,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: end;
+  height: 10vh;
 }
 
 .imgFooter {
@@ -280,6 +281,36 @@ li p {
   align-items: center;
   color: #e46a45;
   text-align: center;
+}
+
+.modoJuego {
+  position: relative;
+  text-align: center;
+}
+
+.descripcion {
+  max-height: 0;
+  overflow: hidden;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #01444c;
+  color: #ffffaf;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.imgModoJuego:hover {
+  box-shadow: 0px 5px 10px;
+  cursor: help;
+}
+
+.modoJuego:hover .descripcion {
+  max-height: 300px;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */

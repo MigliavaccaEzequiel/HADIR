@@ -50,56 +50,95 @@
         <h1>Modos</h1><!--Titulo-->
     </header>
     <main class="mx-2">
-        <h2>Selección de modo</h2>
-        <p>En el formato multijugador tenemos varios modos diferentes normalmente de 6 vs 6 y con reaparicion, los <em>destacados</em> suelen ser eventos rotativos, pero tambien podemos filtrar las partidas segun nos interesa a nosotros eligiendo el modo que mas nos gusta sea partida normal o extremo.</p>
-        <p>Cada partida tiene dos formas de finalizar, una es cumpliendo el objetivo que puede ser por eliminaciones, puntos o rondas y la otra es si se termina el tiempo, que gana quien este mas cerca de cumplir el objetivo.</p>
-        <p>En el modo <em>Extremo</em> hay fuego aliado, penalizacion y no vemos los indicadores de balas o granadas restantes ni mejoras de campo o rachas, solo nos mostrara un punto en su lugar. ¿Que significa fuego aliado? que las balas, granadas y rachas de baja tambien impactan a nuestros compañeros, asi que deberemos tener mucho cuidado al momento de atacar ya que despeus de eliminar a un par el juego nos penaliza y en lugar de morir ellos nos elimina a nosotros. Esto lo hacen para que no haya trolls matando amigos todo el tiempo y se pueda jugar la partida.</p>
+        <div class="container-fluid text-center w-75">
+            <div class="row">
+                <h2>Selección de modo</h2>
+                <p>En el formato multijugador tenemos varios modos diferentes normalmente de 6 vs 6 y con reaparicion, los <em>destacados</em> suelen ser eventos rotativos, pero tambien podemos filtrar las partidas segun nos interesa a nosotros eligiendo el modo que mas nos gusta sea partida normal o extremo.</p>
+                <p>Cada partida tiene dos formas de finalizar, una es cumpliendo el objetivo que puede ser por eliminaciones, puntos o rondas y la otra es si se termina el tiempo, que gana quien este mas cerca de cumplir el objetivo.</p>
+                <p>En el modo <em>Extremo</em> hay fuego aliado, penalizacion y no vemos los indicadores de balas o granadas restantes ni mejoras de campo o rachas, solo nos mostrara un punto en su lugar. ¿Que significa fuego aliado? que las balas, granadas y rachas de baja tambien impactan a nuestros compañeros, asi que deberemos tener mucho cuidado al momento de atacar ya que despeus de eliminar a un par el juego nos penaliza y en lugar de morir ellos nos elimina a nosotros. Esto lo hacen para que no haya trolls matando amigos todo el tiempo y se pueda jugar la partida.</p>
+            </div>
+        </div>
         <h3>Lista de partidas</h3>
-        <p>La lista de partidas que podemos seleccionar es la siguiente y les indicaremos como se juega cada modo:</p>
-        <div id="modos">
-            <img src="../assets/imagenes/Modos.png" alt="Menu seleccion de modos de juego en multijugador" id="imgModos">
-            <ul><!--lista para explicar los modos de juego-->
-                <li>
-                    <p><u><strong>Duelo por equipos:</strong></u> Modo por eliminaciones, es el mas comun y consiste en ser el primer equipo en llegar a una determinada cantidad de <em>kills.</em></p>
-                </li>
-                <li>
-                    <p><u><strong>Orden de ejecución:</strong></u> Este modo es por puntos, tambien consiste en matar mas que el enemigo pero hay un <em>VIP</em> que da mas puntos cuando es eliminado. Gana el equipo que llega al puntaje establecido.</p>
-                </li>
-                <li>
-                    <p><u><strong>Dominio:</strong></u> Modo por puntos, en el mapa hay 3 <em>banderas</em> que podemos tomar y deberemos aguantar su posicion, esto nos ira sumando puntos y gana el equipo que llegue primero al limite establecido.</p>
-                </li>
-                <li>
-                    <p><u><strong>Punto caliente:</strong></u> Modo por puntos, debemos mantenernos dentro de un sector marcado en el mapa, este va cambiando de lugar cada cierto tiempo, el equipo que mas tiempo estuvo dentro del punto .</p>
-                </li>
-                <li>
-                    <p><u><strong>Buscar y destruir:</strong></u> Modo por rondas, para ganar una ronda uno de los equipos tiene una bomba y su objetivo es plantarla en uno de los dos puntos establecidos en el mapa y cuidarla hasta que explote o eliminar a todo el equipo enemigo, mientras el otro equipo debe eliminar a todos los rivales antes de que planten la bomba y si esta fue plantada desactivarla antes de que explote. Al ser eliminado no reaparecemos hasta la proxima ronda. La victoria sera del equipo que llega a las rondas establecidas.</p>
-                </li>
-                <li>
-                    <p><u><strong>Control:</strong></u> Modo por objetivo con vidas limitadas, hay dos puntos marcados en el mapa, un equipo debe defenderlos y el otro debe tomarlos, cada punto tiene 3 barras que deben llenarse para tomarlo, cuando se llena una barra no puede recuperarse y lo mismo cuando se completan las 3, ese punto ya se perdio y debemos defender / tomar el otro para ganar la ronda. Podemos reaparecer pero cada equipo consumira <em>vidas</em> las cuales son limitadas y una vez que se terminan no reapareceran. Quien gane la cantidad de rondas establecida se lleva la victoria.</p>
-                </li>
-                <li>
-                    <p><u><strong>Cuartel general:</strong></u> Modo por puntos, este modo es una mezcla de punto caliente con buscar y destruir, debemos tomar el <em>Cuartel</em> marcado en el mapa, una vez que el punto fue tomado los integrantes del equipo que lo tomo no reapareceran cuando sean eliminados, los rivales deberan "recuperar" el cuartrel y recien ahi reapareceran los otros jugadores. Gana el primero en llegar al limite de puntos.</p>
-                </li>
-                <li>
-                    <p><u><strong>Baja confirmada:</strong></u> Modo por objetivo, cada jugador que muere deja una <em>placa</em>, nuestro objetivo es juntar las placas enemigas para sumar puntos y las placas aliadas para evitar que el enemigo sume puntos. Gana el equipo que junta la cantidad de placas establecidas.</p>
-                </li>
-                <li>
-                    <p><u><strong>Contra todos:</strong></u> Modo por eliminaciones, como su nombre indica nos enfrentaremos en un combate <em>todos contra todos</em> y gana el primero en eliminar la cantidad de jugadores indicada.</p>
-                </li>
-                <li>
-                    <p><u><strong>Stakeout 24/7:</strong></u> Este es un mapa pequeño y cerrado sin rachas de baja, si seleccionamos esto siempre jugaremos en este mapa rotando entre los modos <em>Duelo por equipos, Orden de ejecucion, Dominio, Punto caliente y Baja confirmada.</em></p>
-                </li>
-                <li>
-                    <p><u><strong>Nuketown 24/7:</strong></u> Este es un mapa pequeño y abierto que permite rachas de baja, si seleccionamos esto siempre jugaremos en este mapa rotando entre los modos <em>Duelo por equipos, Orden de ejecucion, Dominio, Punto caliente y Baja confirmada.</em></p>
-                </li>
-                <li>
-                    <p><u><strong>Foso 10 contra 10:</strong></u> Similar a duelo por equipos pero con 10 personas en cada uno en lugar de 6, gana el equipo con mas eliminaciones.</p>
-                </li>
-                <li>
-                    <p><u><strong>Foso 6 contra 6:</strong></u> Similar a duelo por equipos pero sin rachas de baja, gana el equipo con mas eliminaciones.</p>
-                </li>
-            </ul>
-        </div>        
+        <p>La lista de partidas que podemos seleccionar es la siguiente y les indicaremos como se juega cada modo al posarse sobre el deseado:</p>
+        <div class="container-fluid">
+            <div class="row g-2 m-2">
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/DPE.png" alt="Seleccionar modo Duelo por equipos" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por eliminaciones, es el mas comun y consiste en ser el primer equipo en llegar a una determinada cantidad de <em>kills.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Orden.png" alt="Seleccionar modo Orden de ejecucion" class="imgModoJuego">
+                    <div class="descripcion">
+                        Este modo es por puntos, tambien consiste en matar mas que el enemigo pero hay un <em>VIP</em> que da mas puntos cuando es eliminado. Gana el equipo que llega al puntaje establecido.
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Dominio.png" alt="Seleccionar modo Dominio" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por puntos, en el mapa hay 3 <em>banderas</em> que podemos tomar y deberemos aguantar su posicion, esto nos ira sumando puntos y gana el equipo que llegue primero al limite establecido.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Punto.png" alt="Seleccionar modo Punto caliente" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por puntos, debemos mantenernos dentro de un sector marcado en el mapa, este va cambiando de lugar cada cierto tiempo, el equipo que mas tiempo estuvo dentro del punto.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/BYD.png" alt="Seleccionar modo Buscar y destruir" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por rondas, para ganar una ronda uno de los equipos tiene una bomba y su objetivo es plantarla en uno de los dos puntos establecidos en el mapa y cuidarla hasta que explote o eliminar a todo el equipo enemigo, mientras el otro equipo debe eliminar a todos los rivales antes de que planten la bomba y si esta fue plantada desactivarla antes de que explote. Al ser eliminado no reaparecemos hasta la proxima ronda. La victoria sera del equipo que llega a las rondas establecidas.
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Control.png" alt="Seleccionar modo Control" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por objetivo con vidas limitadas, hay dos puntos marcados en el mapa, un equipo debe defenderlos y el otro debe tomarlos, cada punto tiene 3 barras que deben llenarse para tomarlo, cuando se llena una barra no puede recuperarse y lo mismo cuando se completan las 3, ese punto ya se perdio y debemos defender / tomar el otro para ganar la ronda. Podemos reaparecer pero cada equipo consumira <em>vidas</em> las cuales son limitadas y una vez que se terminan no reapareceran. Quien gane la cantidad de rondas establecida se lleva la victoria.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Cuartel.png" alt="Seleccionar modo Cuartel general" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por puntos, este modo es una mezcla de punto caliente con buscar y destruir, debemos tomar el <em>Cuartel</em> marcado en el mapa, una vez que el punto fue tomado los integrantes del equipo que lo tomo no reapareceran cuando sean eliminados, los rivales deberan "recuperar" el cuartrel y recien ahi reapareceran los otros jugadores. Gana el primero en llegar al limite de puntos.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Baja.png" alt="Seleccionar modo Baja confirmada" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por objetivo, cada jugador que muere deja una <em>placa</em>, nuestro objetivo es juntar las placas enemigas para sumar puntos y las placas aliadas para evitar que el enemigo sume puntos. Gana el equipo que junta la cantidad de placas establecidas.
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/ContraTodos.png" alt="Seleccionar modo Contra todos" class="imgModoJuego">
+                    <div class="descripcion">
+                        Modo por eliminaciones, como su nombre indica nos enfrentaremos en un combate <em>todos contra todos</em> y gana el primero en eliminar la cantidad de jugadores indicada.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Stakeout.png" alt="Seleccionar mapa Stakeout" class="imgModoJuego">
+                    <div class="descripcion">
+                        Este es un mapa pequeño y cerrado sin rachas de baja, si seleccionamos esto siempre jugaremos en este mapa rotando entre los modos <em>Duelo por equipos, Orden de ejecucion, Dominio, Punto caliente y Baja confirmada.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Nuke.png" alt="Seleccionar mapa Nuketown" class="imgModoJuego">
+                    <div class="descripcion">
+                        Este es un mapa pequeño y abierto que permite rachas de baja, si seleccionamos esto siempre jugaremos en este mapa rotando entre los modos <em>Duelo por equipos, Orden de ejecucion, Dominio, Punto caliente y Baja confirmada.</em>
+                    </div>
+                </div>
+                <div class="modoJuego col-12 col-md-6">
+                    <img src="../assets/imagenes/modos/Foso.png" alt="Seleccionar modo Foso de 10 contra 10" class="imgModoJuego">
+                    <div class="descripcion">
+                        Similar a duelo por equipos pero con 10 personas en cada uno en lugar de 6, gana el equipo con mas eliminaciones.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
     </main>
     <footer>
         <a href="#inicio1"><img src="../assets/imagenes/footer/flechas-arriba.png" alt="flecha arriba" class="imgFooter">Volver arriba</a>

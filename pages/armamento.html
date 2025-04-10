@@ -49,15 +49,17 @@
         </nav>
         <h1>Armamento</h1> <!--Titulo-->
     </header>
-    <main class="mx-2">
+    <main class="">
         <h2>Armamentos</h2>
         <p>En el menu de Armas podemos configurar nuestro armamento, seleccionar las rachas de baja y probar el arma configurada en la galeria de tiro</p>
         <div id="armas">
             <img src="../assets/imagenes/Menu-armas.png" alt="Menu de armamento, rachas o galeria de tiro" class="imgMenuHor">
         </div>
-        <p>El armamento está compuesto por el arma principal, el arma secundaria (podemos equipar otra principal usando el comodín "Exceso de medios"), un arma cuerpo a cuerpo, equipamiento táctico, equipamiento letal, mejora de campo y 3 ventajas (pueden ser 4 si equipamos el comodín "Ventaja extra"), si las ventajas son del mismo "color" obtenemos una especialidad. Para entenderlo mejor vamos a dividirlo en 4 partes: <em>armas, equipamiento, ventajas y comodin</em>.</p>
+        <div class="container-fluid">
+            <p>El armamento está compuesto por el arma principal, el arma secundaria (podemos equipar otra principal usando el comodín "Exceso de medios"), un arma cuerpo a cuerpo, equipamiento táctico, equipamiento letal, mejora de campo y 3 ventajas (pueden ser 4 si equipamos el comodín "Ventaja extra"), si las ventajas son del mismo "color" obtenemos una especialidad. Para entenderlo mejor vamos a dividirlo en 4 partes: <em>armas, equipamiento, ventajas y comodin</em>.</p>
+        </div>
         <div class="container-fluid text-center">
-            <img src="../assets/imagenes/Armamento.png" alt="Menu personalizacion de armamento" class="imgFhd"><!--Imagen del menu de personalizacion de armamento-->
+            <img src="../assets/imagenes/Armamento.png" alt="Menu personalizacion de armamento" class="imgFhd">
         </div>
         <section>
             <article>
@@ -111,17 +113,46 @@
                     </div>
                 </div>
             </article>
-            <article>
-                <h3>Equipamiento</h3>
-                <p>Los equipamientos son: <em>tactico, letal y mejora de campo</em>, si bien tenemos mucha variedad se entiende para que son los dos primeros. La mejora de campo se recarga con el tiempo durante la partida y veremos las opciones que nos dan para elegir ya que cada una tiene su beneficio.</p>
+            <article class="container-fluid w-75 text-center">
+                <div class="">
+                    <h3>Equipamiento</h3>
+                    <p>Los equipamientos son: <em>tactico, letal y mejora de campo</em>, si bien tenemos mucha variedad se entiende para que son los dos primeros. La mejora de campo se recarga con el tiempo durante la partida y veremos las opciones que nos dan para elegir ya que cada una tiene su beneficio.</p>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 col-md-2">
+                        <img src="../assets/imagenes/EqTac.png" alt="" class="imgMenuVert">
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <img src="../assets/imagenes/EqLet.png" alt="" class="imgMenuVert">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../assets/imagenes/MejorasCampo.png" alt="" class="imgMenuVert">
+                    </div>
+                </div>
             </article>
-            <article>
+            <article class="container-fluid w-75 text-center">
                 <h3>Ventajas</h3>
                 <p>Tenemos 3 lugares de ventajas, en cada uno podremos elegir diferentes, si elegimos 3 del mismo tipo esto nos activa una especialidad.</p>
-            </article>
+                <div class="row text-center">
+                    <div class="col-12 col-md-4">
+                        <img src="../assets/imagenes/Ventaja1.png" alt="" class="imgMenuVert">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../assets/imagenes/Ventaja2.png" alt="" class="imgMenuVert">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../assets/imagenes/Ventaja3.png" alt="" class="imgMenuVert">
+                    </div>
+                </div>
+            </article class="container-fluid w-75">
             <article>
                 <h3>Comodin</h3>
                 <p>Dependiendo el comodin que usemos tendremos un beneficio, por lo cual dependera de nuestro tipo de juego cual elijamos</p>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <img src="../assets/imagenes/Comodines.png" alt="" class="imgMenuVert">
+                    </div>
+                </div>
             </article>
         </section>
     </main>    

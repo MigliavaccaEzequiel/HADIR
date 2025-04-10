@@ -36,6 +36,12 @@ $colores:(
     justify-content: center;
     align-items: center;
 }
+@mixin flexFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
 @mixin recuadro {
     border: 2px solid map-get($colores, link);
     border-radius: 10px;

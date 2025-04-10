@@ -13,7 +13,8 @@ nav ul li {
     margin: 5px;
 }
 footer {
-    @include flexrowsparoundcenter;
+    @include flexFooter;
+    height: 10vh;
 }
 .imgFooter {
     height: 15px;
@@ -134,4 +135,30 @@ li p {
     @include flexcolumncentercenter;
     color: map-get($colores, txtsec);
     text-align: center;
+}
+.modoJuego {
+    position: relative;
+    text-align: center;
+ }
+.descripcion {
+    max-height: 0;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: map-get($colores, fondo);
+    color: map-get($colores, txtppl);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.imgModoJuego:hover {
+    @include sombra;
+    cursor: help;
+}
+.modoJuego:hover .descripcion {
+    max-height: 300px;
+    opacity: 1;
 }
