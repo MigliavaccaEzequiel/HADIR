@@ -92,6 +92,12 @@ li p {
     padding: 5px;
     border-radius: 5px;
 }
+#carrusel2 .carousel-inner{
+    height: 65vh;
+}
+#carrusel3 .carousel-inner{
+    height: 65vh;
+}
 /*Clases*/
 .logoCod {
     width: 100%;
@@ -121,6 +127,13 @@ li p {
     border-radius: 15px;
     margin: 10px;
 }
+.imgCuadrada {
+    @include sombra;
+    width: 100%;
+    height: 65vh;
+    object-fit: contain;
+    max-height: 80vh;
+}
 .recuadro {
     @include recuadro;
 }
@@ -130,6 +143,7 @@ li p {
 }
 .boton {
     @include boton;
+    margin: 10px;
 }
 .formulario {
     @include flexcolumncentercenter;
@@ -161,4 +175,5 @@ li p {
 .modoJuego:hover .descripcion {
     max-height: 300px;
     opacity: 1;
+    transition: 2s;
 }
